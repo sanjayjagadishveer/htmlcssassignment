@@ -1,0 +1,146 @@
+
+/*header*/
+.flex-container{
+   display: flex;
+   background-color:black;
+   gap: 20px 100px;
+
+ }
+.flex-container > div {
+   background-color:black;
+
+   font-size: 20px;
+   color: aliceblue;
+   padding: 30px;
+   text-align: center;
+   align-self: center; 
+ }
+ *
+ {
+    padding: 0px;
+    margin: 0px;
+ }
+ button
+ {
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+ }
+
+ /* main */
+ .flex-main{
+   display: flex;
+   background-color:black;
+   flex-direction: column;
+   
+
+ }
+div.flex-main   {
+   background-color:black;
+   font-size: 60px;
+   color: aliceblue;
+   padding-bottom: 100px;
+   text-align: center;
+   padding-left: 0px;
+   
+  
+ }
+ p
+ {
+    font-size: 23px;
+ }
+
+
+ /*section*/
+ .flex-section{
+   display: flex;
+   background-color:black;
+
+   
+
+ }
+div.flex-section  {
+   background-color:black;
+   font-size: 60px;
+   color: aliceblue;
+   padding-bottom: 100px; 
+}
+
+section.flex-section
+{
+   gap:  130px;
+   padding-bottom: 300px;
+}
+.flex-image {
+   display: flex;
+   background-color:black;
+ }
+ 
+ .flex-image > div {
+   background-color:black;
+   margin: 10px;
+   padding: 50px;
+  
+ }
+ .flex-sub {
+   display: flex;
+   background-color:gray;
+ }
+ 
+ .flex-sub > div {
+   background-color:gray;
+   margin: 10px;
+   padding: 50px;
+   color: white;
+   
+ }
+ .flex-last {
+   display: flex;
+   background-color:black;
+   color: beige;
+ }
+ 
+ .flex-last > div {
+   background-color:black;
+   margin: 10px;
+   padding: 50px;
+   color: white;
+   
+ }
+
+ footer
+ {
+    display: flex;
+    background-color: gray;
+    justify-content: flex-end;
+   padding: 15px;
+  
+    
+ }
+ a:link {
+   color:whitesmoke;
+   text-decoration: none;
+ }
+ 
+ /* visited link */
+ a:visited {
+   color: whitesmoke;
+ }
+ 
+ /* mouse over link */
+ a:hover {
+   color:whitesmoke;
+ }
+ 
+ /* selected link */
+ a:active {
+   color:whitesmoke;
+ }
+
+
+
+
+   
+ 
+
+
